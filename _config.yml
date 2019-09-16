@@ -1,12 +1,11 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+name: 'Coded Stories'
+description: 'Coded Stories is my experiments and things I figured out that I want to share with you'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana-theme-jekyll'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+baseurl: '/blog'
+disqus: 'blog'
+email: 'judeosby@gmail.com'
 
 include: ["_pages"]
 permalink: /:title/
@@ -17,24 +16,15 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  
-authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
- 
+authors:
+    jude:
+      name:           Jude Osbert K
+      site:           judeosbert.github.io
+      avatar:         assets/images/njan.jpg
+      bio:            "Hi, I am Jude, the author of CodedStories, I am hoping to share my view of coding and understand things better."
+      email:          judeosby@gmail.com
+
 # Defaults
 defaults:
 
@@ -43,8 +33,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: jude
+      avatar: http://judeosbert.github.io/images/njan.jpg
       
   # all pages
   - scope:
