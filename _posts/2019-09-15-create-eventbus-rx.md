@@ -4,7 +4,7 @@ title:  "DIY Eventbus with Rx"
 author: jude
 avatar: assets/images/njan.jpg  
 categories: [ android, tutorial, eventbus, rx ]  
-tags: [sticky]
+tags: [sticky,android, tutorial, eventbus, rx]
 image: assets/images/diy-eventbus-rx.jpg 
 ---
   
