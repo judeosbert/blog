@@ -7,7 +7,8 @@ categories: [ android, tutorial, eventbus, rx ]
 tags: [sticky,android, tutorial, eventbus, rx]
 image: assets/images/diy-eventbus-rx.jpg 
 ---
-  
+> Find the code at [link](https://github.com/judeosbert/DIY-EventBus/)
+ 
 Recently at work, I ran into a situation where I needed an eventbus. Irrespective of the activity I was in, I needed to show a popup which had few CTAs. My approach was to register an eventbus listener in the base class and have all classes extend that base class.
 I could simply use an existing solution which I was comfortable with, Ottobus for example, but I did not want to have an extra library just for a popup functionality. Since we were using RxKotlin, I decided to do it myself.  
   

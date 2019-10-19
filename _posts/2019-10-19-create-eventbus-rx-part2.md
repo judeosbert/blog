@@ -10,7 +10,7 @@ image: assets/images/diy-eventbus-rx.jpg
   
 # extending DIY EventBus to multiple activties  
 
-> Find the code at [link]([https://github.com/judeosbert/DIY-EventBus/tree/part2](https://github.com/judeosbert/DIY-EventBus/tree/part2))
+> Find the code at [link](https://github.com/judeosbert/DIY-EventBus/tree/part2)
 
 In a previous post, I had paved the idea for a simple eventbus. You can read it [here]([https://judeosbert.github.io/blog/create-eventbus-rx/](https://gnldr.website/tracker/click?redirect=https%3A%2F%2Fjudeosbert.github.io%2Fblog%2Fcreate-eventbus-rx%2F&dID=1570443589782&linkName=https://judeosbert.github.io/blog/create-eventbus-rx/)). I strongly suggest you read that before you continue. I had registered the listeners in my BaseActivity limiting the interaction to only that Activity and not others. This is not useful if you want to refresh the  data in an activity other than the base activity based on some events sent through the bus.  
 In this post I will suggest a way to make our bus even more useful.  
